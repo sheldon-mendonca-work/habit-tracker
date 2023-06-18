@@ -1,0 +1,8 @@
+.homepage-feed{
+    display: flex;
+    gap: 1rem;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}

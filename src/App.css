@@ -1,0 +1,6 @@
+@import url('./components/vars.css');
+
+html{
+    background-color: rgb(var(--background-color));
+    color: rgb(var(--color-white));
+}

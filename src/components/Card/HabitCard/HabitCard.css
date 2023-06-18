@@ -1,0 +1,48 @@
+.habitcard-card-span{
+    background-color: rgb(var(--color-white));
+    color: rgb(var(--background-color));
+    position: relative;
+    
+    border-radius: 2rem;
+}
+
+.habitcard-card{
+    width: 24rem;
+    height: 15rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(var(--color-white));
+    color: rgb(var(--background-color));
+    border: 2px solid currentColor;
+}
+
+.habitcard-card:hover{
+    border: 2px solid red;
+}
+
+.heading2{
+    margin: 0;
+    display: inline-block;
+}
+
+.habitcard-actions{
+    position: absolute;
+    top: -2rem;
+    right: 2rem;
+    display: flex;
+}
+
+.habitcard-action{
+    height: 2rem;
+    background-color: rgb(var(--color-white));
+    color: rgb(var(--background-color));
+    cursor: pointer;
+    padding: 0 1rem;
+    border: 1px solid rgb(var(--background-color));
+    border-bottom: none;
+}
+
+.habitcard-action:hover{
+    color: rgb(var(--color-white));
+    background-color: rgb(var(--background-color));
+}
