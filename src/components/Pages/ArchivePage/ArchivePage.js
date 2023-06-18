@@ -3,7 +3,6 @@ import Layout from '../../Layouts/Layout';
 import './ArchivePage.css';
 import { HabitContext } from '../../../contexts/HabitContext';
 import HabitCard from '../../Card/HabitCard/HabitCard';
-import NewHabitCard from '../../Card/HabitCard/NewHabitCard';
 import HabitModal from '../../Card/HabitModal/HabitModal';
 
 const ArchivePage = () => {
