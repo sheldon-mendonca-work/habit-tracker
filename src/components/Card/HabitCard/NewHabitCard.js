@@ -3,10 +3,11 @@ import './HabitCard.css'
 import { HabitContext } from '../../../contexts/HabitContext'
 
 export default function NewHabitCard(props){
-    const { setPopupOpen } = useContext(HabitContext);
+    const { setPopupOpen, setCurrentHabit, initAddForm } = useContext(HabitContext);
 
     const addNewHabit = () => {
         setPopupOpen(true);
+        setCurrentHabit(initAddForm);
     }
 
     return <div className='habitcard-card' onClick={addNewHabit}>
